@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  width: 100%;
+}
+
+/* ------------------Scroll Bar--------------------- */
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: lightgray;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: grey;
+}
+/*-------- Animation -------------*/
+.fly {
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.fly--visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* ---------------Navbar Css------------- */
+.header {
+    position: sticky;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background-color: black;
+    display: flex;
+    padding: 1rem 10%;
+    box-shadow: 0 .3rem 1rem black;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header .logo {
+    height: 80px;
+    /* Logo color -#ff2b2b */
+}
+.header .navbar a{
+    font-size: 1.4rem;
+    font-family: 'Audiowide', cursive;
+    margin-left: 2rem;
+    /* color: #ff2b2b; */
+    color: white;
+    text-decoration: none;  
+}
+
+.header .navbar a:hover{
+    color: purple;
+}
+
+
+/* ------------Carousel----------- */
+
+.carousel-title {
+    padding: 0px 0;
+    font-size: 80px;
+}
+
+.carousel-item {
+  height: 700px;
+}
+
+.carousel-item img{
+  align-items: center;
+}
+
+.first p {
+  padding-bottom: 350px;
+}
+
+/* ----------------------------Latest Article----------------------------------- */
+/* Title  */
+.latest-title {
+    text-align: left;
+    font-family: 'Audiowide', cursive;
+    width: 100%;
+    font-weight: 700;
+    margin: 8% auto 4%;
+    left: 0%;
+}
+
+/* Big Card  */
+.main-card {
+  padding: 0;
+  margin: 5% auto 3%;
+}
+
+/* To draw line  */
+.article-line {
+  width: 69%;
+  margin: 0 auto;
+  left: 0%;
+  border: 3px solid black;
+  align-items: center;
+}
+
+.main-card h2{
+  color: black;
+  text-align: center;
+  padding-top: 6%;
+}
+
+.main-card h5 {
+  color: #ff2b2b;
+  padding-left: 22%;
+  padding-bottom: 2%;
+}
+
+.main-card h6 {
+  text-align: left;
+  padding: 1% 22% 6%;
+  color: black;
+}
+
+.main-card:hover {
+  box-shadow: 0 .3rem 1rem black;
+}
+
+.main-card img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* --------------First Small Card ------------------*/
+.first-sm-card {
+  width: 21%;
+  padding: 0;
+  margin-left: 16.75%;
+  margin-bottom: 5%;
+}
+
+.first-sm-card:hover {
+  box-shadow: 0 .3rem 1rem black;
+}
+
+.first-sm-card img {
+  height: 45%;
+  width: 100%;
+  object-fit: cover;
+  margin-left: 0%;
+}
+
+.first-sm-card h2 {
+  padding: 5% 5% 1%;
+  text-align: left;
+  font-size: 125%;
+  color: black;
+}
+
+.first-sm-card h3 {
+  padding: 2% 5% 5%;
+  text-align: left;
+  font-size: 100%;
+  color: #ff2b2b;
+}
+
+.first-sm-card p {
+  padding: 2% 5% 2%;
+  color: black;
+}
+
+/* --------------Second Small Card ------------------*/
+.second-sm-card {
+  width: 21%;
+  margin-left: 1.9%;
+  padding: 0;
+  margin-bottom: 5%;
+}
+
+.second-sm-card:hover {
+  box-shadow: 0 .3rem 1rem black;
+}
+
+.second-sm-card img {
+  height: 45%;
+  width: 100%;
+  object-fit: cover;
+  margin-left: 0%;
+}
+
+.second-sm-card h2 {
+  padding: 5% 5% 1%;
+  text-align: left;
+  font-size: 125%;
+  color: black;
+}
+
+.second-sm-card h3 {
+  padding: 9% 5% 5%;
+  text-align: left;
+  font-size: 100%;
+  color: #ff2b2b;
+}
+
+.second-sm-card p {
+  padding: 2% 5% 0%;
+  color: black;
+}
+/* --------------Third Small Card ------------------*/
+.third-sm-card {
+  width: 21%;
+  margin-left: 1.9%;
+  padding: 0;
+  margin-bottom: 5%;
+}
+
+.third-sm-card:hover {
+  box-shadow: 0 .3rem 1rem black;
+}
+
+.third-sm-card img {
+  height: 45%;
+  width: 100%;
+  object-fit: cover;
+  margin-left: 0%;
+}
+
+.third-sm-card h2 {
+  padding: 5% 5% 1%;
+  text-align: left;
+  font-size: 125%;
+  color: black;
+}
+
+.third-sm-card h3 {
+  padding: 9% 5% 5%;
+  text-align: left;
+  font-size: 100%;
+  color: #ff2b2b;
+}
+
+.third-sm-card p {
+  padding: 2% 5% 0%;
+  color: black;
+}
+/* ---------------------------------------Newsletter Section----------------------------------  */
+.newsletter-box {
+    background: url(../images/newsletter2.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px;
+    padding: 145px 40px;
+    color: white;
+}
+
+.newsletter-box p{
+    max-width: 600px;
+    margin: 30px auto 80px auto;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.newsletter-box h1 {
+  text-align: center;
+}
+.email-box {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.email-box i{
+    text-align: center;
+    width: 40px;
+    background: #ff2b2b;
+    line-height: 40px;
+}
+
+.email-box button{
+    width: 100px;
+}
+
+.tbox{
+    border: none;
+    outline: none;
+    width: 0px;
+    transition: 0.6s;
+}
+
+.button-news{
+    border: none;
+    outline: none;
+    background: #ff2b2b;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.email-box:hover > .tbox, .tbox:focus {
+    width: 260px;
+    padding: 0 10px;
+}
+
+
+/* ----------------------------------- Footer Section--------------------------------*/
+.footer {
+    background-color: #ff2b2b;
+    padding: 2% 0;
+
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, .7fr));
+    gap: 4%;
+    margin-left: 12%;
+    padding: 4% 0;
+}
+
+.footer .box-container .box  h3 {
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 4%;
+}
+
+.footer .box-container .box  a {
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 3%;
+    display: block;
+    text-decoration: none;
+}
+
+.footer .box-container .box  a i{
+    color: black;
+    padding-right: 5%;
+    transition: .2s linear;
+}
+
+.footer .box-container .box  a:hover{
+    color: purple;
+}
+
+  /* ----------------COPYRIGHT -------------------*/ 
+  .greyline {
+    position: relative;
+    max-width: 80%;
+    left: 10%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .copyright {
+    position: relative;
+    left: 10%;
+    text-align: center;
+    font-size: 12px;
+    max-width: 80%;
+    line-height: 0;
+    margin-top: 1%;
+    color: white;
+  }  
+
+  .copyright > span {
+    color: black;
+  }

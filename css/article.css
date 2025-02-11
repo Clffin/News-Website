@@ -1,0 +1,117 @@
+a:hover {
+    color: purple;
+}
+
+.art1-content img {
+    height: 50%;
+    width: 100%;
+    margin: 25px 0 5px;
+    object-fit: cover;
+}
+
+.art1-title {
+    margin: 5% 0;
+}
+
+.art1-title > h1 {
+    font-size: 45px;
+    text-align: left;
+}
+
+.art1-title > h6{
+    color: #ff2b2b;
+}
+
+.art1-content {
+    margin-top: 3%;
+}
+
+.art1-content > p {
+    color: black;
+    margin: 25px 0;
+}
+.art1-content > img {
+    height: 400px;
+    width: 100%;
+}
+
+.art1-about {
+    font-size: 15px;
+    background-color: #ebebeb;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+.art1-about a {
+    text-decoration: none;
+    color: black;
+}
+
+.share-content  a  i {
+    padding-right: 1rem;
+    font-size: 25px;
+}
+/* --------------------------------Other News Section-------------------------------------- */
+.art1-other {
+    margin: 65px 0 10%;
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: black;
+}
+
+/* Small Cards  */
+.first-card {
+    width: 80%;
+    background-color: black;
+    font-family:'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 10% auto 0%;
+}
+  
+.first-card:hover {
+    box-shadow: 0 .3rem 1rem black;
+}
+  
+.first-card img {
+    height: 45%;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 0%;
+}
+
+.first-card h2 {
+    padding: 5% 5% 1%;
+    text-align: left;
+    font-size: 100%;
+    color: white;
+}
+
+.first-card h3 {
+    padding: 0% 5% 8%;
+    text-align: left;
+    font-size: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    color: red;
+}
+
+.first-card p {
+    padding: 2% 5% 20%;
+    color: black;
+    width: 80%;
+    font-size: 80%;
+    margin: 0% auto;
+}
+
+/* Just to add some space  */
+.pad {
+margin-top: 20%;
+}
+
+/* Youtube Video Css  */
+iframe{
+    width: 100%;
+    height:450px;
+}
